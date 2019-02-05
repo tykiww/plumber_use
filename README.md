@@ -1,5 +1,9 @@
 # plumber testing
-Experimenting with the Plumber API created by Trestle Technology, LLC 2017 for R
+Experimenting with the Plumber API created by Trestle Technology, LLC 2017 for R.
+
+Goal is to be able to deploy my machine learning model as an available API. Guide is the linke below.
+
+https://shirinsplayground.netlify.com/2018/01/plumber/
 
 
 
