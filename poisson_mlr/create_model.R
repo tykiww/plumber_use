@@ -8,7 +8,7 @@
 library(tidyverse, quietly = TRUE)
 url <- "https://raw.githubusercontent.com/tykiww/projectpage/master/datasets/Absentee/work_absentee.csv"
 dta <- read.csv(url, head = TRUE) %>% as_tibble
-
+dta <- dplyr::select(dta,-ID)
 
 set.seed(15)
 idd <- sample(nrow(dta),.8*nrow(dta), replace = FALSE)
